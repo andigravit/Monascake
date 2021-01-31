@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Eina-Bold;
+	src: url('../fonts/Eina03-Bold.ttf');
+}
+
+@font-face {
+	font-family: Eina-Light;
+	src: url('../fonts/Eina03-Light.ttf');
+}
+
+@font-face {
+	font-family: Eina-SemiBold;
+	src: url('../fonts/Eina03-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: Eina-Regular;
+	src: url('../fonts/Eina03-Regular.ttf');
+}
+
+@font-face {
+	font-family: Dosis-Bold;
+	src: url('../fonts/Dosis-Bold.ttf');
+}
+
+@font-face {
+	font-family: Dosis-Medium;
+	src: url('../fonts/Dosis-Medium.ttf');
+}
+
+@font-face {
+	font-family: Dosis-Regular;
+	src: url('../fonts/Dosis-Regular.ttf');
+}
+
+@font-face {
+	font-family: Dosis-Semibold;
+	src: url('../fonts/Dosis-SemiBold.ttf');
+}

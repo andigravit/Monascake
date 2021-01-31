@@ -1,0 +1,222 @@
+.bg-pink-nav{background:#FEE4D5}
+.bg-pink-nav a{font-family:Eina-Bold}
+.bg-pink-nav a{color:#937405;transition:all 0.2s ease-out;cursor:pointer}
+.bg-pink-nav a:hover{text-decoration:none;color:#D8B94B}
+.hero-images{background:#FEE4D5;padding:40px 0px 0px;width:100%;top:56px;z-index:-1}
+.hero-images h1{font-family:"Dosis-Bold",open-sans;font-size:70px;line-height:90px;color:black}
+
+.card-ingredients {
+  border-radius: 12px; }
+.card-ingredients h4 {
+   font-family: 'Eina-Regular';
+  font-size: 18px;
+  font-style: normal; }
+
+.img-ingredients {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  margin-left: 440px; }
+  .img-ingredients img {
+    width: 20px !important;
+    vertical-align: top; }
+
+.text-ingredients {
+  display: inline-block; }
+
+.text-price {
+	margin-left: 370px;
+}
+
+.text-price h2 {
+ 	font-family: 'Eina-Bold';
+ 	font-size: 40px;
+ 	display: inline-block;
+ }
+
+.text-price h4 {
+ 	display: inline-block;
+ 	vertical-align: top;
+ 	font-family: 'Eina-Regular';
+ 	opacity: 50%;
+ }
+
+.btn-buy {
+	margin-bottom: 20px;
+}
+
+
+.content-abs {
+  margin-top: 550px;
+  margin-bottom: 50px;
+}
+
+.content-abs .bg-white-content {
+  background: #ffffff;}
+
+.content-abs h4 {
+  font-family: Dosis-Bold;
+  font-size: 36px }
+
+.bg-white-content img {
+	padding: 45px;
+  	border-radius: 12px;
+}
+
+.content-abs h2 {
+  font-family: Dosis-Bold;
+  font-size: 36px }
+
+.card-best img {
+  	border-radius: 6px;
+  	width: 30%;
+}
+
+.text-promo {
+	background: #FEE4D5;
+	margin-top: 48px;
+}
+
+.text-promo h3 {
+  font-family: Dosis-Bold;
+  font-size: 45px }
+}
+
+.text-promo p {
+  font-family: 'Eina-Regular';
+  font-size: 18px }
+}
+
+.btn.btn-pink {
+  background: #ffffff !important;
+  padding: 8px 15px 8px 15px !important;
+  color: white !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  border-radius: 50px !important;
+  font-size: 16px !important;
+  letter-spacing: 2px !important;
+}
+
+.btn-pink:hover {
+  background: #FBC1BD;
+  padding: 8px 15px 8px 15px;
+  color: #000000 !important;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.bottom {
+	background: url(../images/hero-img/bottom.png);
+	background-size: 100%;
+	padding-bottom: 5px;
+}
+
+.img-bottom img {
+	margin-left: 450px;
+	margin-top: 48px;
+	size: 5%;
+	display: inline-block;
+}
+
+.img-bottom p {
+	font-family: Eina-Regular;
+	padding-left: 600px;
+	display: inline-block;
+}
+
+.card-bottom {
+  border-radius: 12px; }
+
+.img-bottom h2 {
+	font-family: Dosis-Bold;
+	padding-left: 600px;
+	display: inline-block;
+}
+
+.btn.btn-red {
+  background: transparent;
+  padding-left: 600px;
+  color: black !important;
+  -webkit-border-radius: 50px !important;
+  -moz-border-radius: 50px !important;
+  border-radius: 50px !important;
+  font-size: 16px !important;
+  letter-spacing: 2px !important;
+}
+
+.btn.btn-red:hover {
+  background: #FBC1BD;
+}
+
+.bottom-2 {
+	background: url(../images/hero-img/bottom-2.png);
+	background-size: 1000px;
+}
+
+.bottom-2 h2 {
+	color: white;
+}
+
+footer {
+  background: #FEE4D5;
+  position: relative; }
+
+footer .bottom-wave {
+  background: url("../images/hero-img/pattern.png") repeat-x;
+  background-size: 40px;
+  height: 40px; }
+
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out left;
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}
+
+/*# sourceMappingURL=style.css.map */
