@@ -1,0 +1,54 @@
+@font-face {
+	font-family: RedRose-Bold;
+	src: url('../fonts/RedRose-Bold.ttf');
+}
+
+@font-face {
+	font-family: RedRose-Light;
+	src: url('../fonts/RedRose-Light.ttf');
+}
+
+@font-face {
+	font-family: RedRose-SemiBold;
+	src: url('../fonts/RedRose-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: RedRose-Regular;
+	src: url('../fonts/Redrose-Regular.ttf');
+}
+
+@font-face {
+	font-family: RedRose-Medium;
+	src: url('../fonts/RedRose-Medium.ttf');
+}
+
+@font-face {
+	font-family: Poppins-Medium;
+	src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: Poppins-SemiBold;
+	src: url('../fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: TitilliumWeb-SemiBold;
+	src: url('../fonts/TitilliumWeb-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: TitilliumWeb-Regular;
+	src: url('../fonts/TitilliumWeb-Regular.ttf');
+}
+
+@font-face {
+	font-family: TitilliumWeb-Bold;
+	src: url('../fonts/TitilliumWeb-Bold.ttf');
+}
